@@ -1,0 +1,459 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.7">
+  <diagram name="Страница — 1" id="CQValkkeIfwCOuOHLHAH">
+    <mxGraphModel dx="2532" dy="2153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rioncRUnMP78FXTY8pyi-1" value="User Unlogin&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-2" value="Раздел №1&lt;div&gt;Приготовить еду из того что есть&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-113" target="rioncRUnMP78FXTY8pyi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="260" as="sourcePoint" />
+            <mxPoint x="140" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-4" value="Раздел №2&lt;div&gt;Рацион на неделю&lt;/div&gt;&lt;div&gt;сразу со списком продуктов&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-113" target="rioncRUnMP78FXTY8pyi-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="290" as="sourcePoint" />
+            <mxPoint x="178" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-6" value="Раздвел №3&lt;div&gt;Профиль и информация о пользователе&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-113" target="rioncRUnMP78FXTY8pyi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="330" as="sourcePoint" />
+            <mxPoint x="191" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-9" value="Параметры тела" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.965;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.034;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-6" target="rioncRUnMP78FXTY8pyi-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-11" value="Возраст" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="510" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-12" value="Вес" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="550" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-13" value="Пол" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="590" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-14" value="Рост" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="630" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.767;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="486.52" y="720.38" as="sourcePoint" />
+            <mxPoint x="459.99644039318946" y="149.67124928889905" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="720" />
+              <mxPoint x="747" y="720" />
+              <mxPoint x="747" y="185" />
+              <mxPoint x="507" y="185" />
+              <mxPoint x="507" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-15" target="rioncRUnMP78FXTY8pyi-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="750" />
+              <mxPoint x="830" y="750" />
+              <mxPoint x="830" y="-230" />
+              <mxPoint x="78" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-15" value="Образ жизни" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.796;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.023;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-9" target="rioncRUnMP78FXTY8pyi-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="590" as="sourcePoint" />
+            <mxPoint x="470" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.987;exitY=0.368;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.693;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-9" target="rioncRUnMP78FXTY8pyi-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="613" as="sourcePoint" />
+            <mxPoint x="480" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.98;exitY=0.699;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-9" target="rioncRUnMP78FXTY8pyi-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="623" as="sourcePoint" />
+            <mxPoint x="490" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-9" target="rioncRUnMP78FXTY8pyi-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="633" as="sourcePoint" />
+            <mxPoint x="500" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.727;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.067;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-9" target="rioncRUnMP78FXTY8pyi-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="643" as="sourcePoint" />
+            <mxPoint x="510" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-21" value="Настройки" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="610" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-22" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-6" target="rioncRUnMP78FXTY8pyi-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="662" as="sourcePoint" />
+            <mxPoint x="373" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-23" value="Сменить эл.почту" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.033;entryY=0.309;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-21" target="rioncRUnMP78FXTY8pyi-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="382" y="760" as="sourcePoint" />
+            <mxPoint x="410" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-26" value="Войти в профиль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-32.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-27" value="Выйти из профиля" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="770" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.391;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-21" target="rioncRUnMP78FXTY8pyi-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="770" as="sourcePoint" />
+            <mxPoint x="430" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-32" value="Вписать продукт (добавить в список)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-220" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-33" value="Указать кол-во продукта" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-220" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.055;entryY=0.79;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.771;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-2" target="rioncRUnMP78FXTY8pyi-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="-110" as="sourcePoint" />
+            <mxPoint x="310" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-32" target="rioncRUnMP78FXTY8pyi-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="-160" as="sourcePoint" />
+            <mxPoint x="540" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-36" value="Поиск блюд" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="325" y="-100" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-2" target="rioncRUnMP78FXTY8pyi-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="40" as="sourcePoint" />
+            <mxPoint x="360" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.628;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-36" target="rioncRUnMP78FXTY8pyi-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="-40" as="sourcePoint" />
+            <mxPoint x="470" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.995;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-36" target="rioncRUnMP78FXTY8pyi-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="476" y="-30" as="sourcePoint" />
+            <mxPoint x="570" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-41" value="Список блюд" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-30" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-42" value="Блюдо" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-105" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-41" target="rioncRUnMP78FXTY8pyi-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="50" as="sourcePoint" />
+            <mxPoint x="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-44" value="Рецепт блюда" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-30" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.995;exitY=0.688;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-42" target="rioncRUnMP78FXTY8pyi-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="30" as="sourcePoint" />
+            <mxPoint x="830" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-47" value="Выбор образа питания" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-48" value="Поддержка веса" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="566" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-49" value="Набор массы" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-50" value="Похудение" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-50" target="rioncRUnMP78FXTY8pyi-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="210" as="sourcePoint" />
+            <mxPoint x="520" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-52" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.984;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-49" target="rioncRUnMP78FXTY8pyi-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="200" as="sourcePoint" />
+            <mxPoint x="505" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-53" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.932;exitY=0.179;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.039;entryY=0.693;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-47" target="rioncRUnMP78FXTY8pyi-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="566" y="130" as="sourcePoint" />
+            <mxPoint x="521" y="74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-54" value="Составить рацион" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0.795;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-4" target="rioncRUnMP78FXTY8pyi-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="231" as="sourcePoint" />
+            <mxPoint x="420" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-56" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1.014;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-54" target="rioncRUnMP78FXTY8pyi-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="400" as="sourcePoint" />
+            <mxPoint x="590" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-58" value="Блюда на выбранный период" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-60" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-61" target="rioncRUnMP78FXTY8pyi-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="550" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-61" value="Общее кол-во калорий" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="566" y="380" width="114" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-67" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.812;entryY=0.99;entryDx=0;entryDy=0;exitX=0;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1060" as="sourcePoint" />
+            <mxPoint x="414.9599999999996" y="979.5999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-68" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.972;entryY=0.666;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1060" as="sourcePoint" />
+            <mxPoint x="427.75999999999976" y="966.6399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-70" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.392;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1100" as="sourcePoint" />
+            <mxPoint x="390" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-73" value="Забыли пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="47.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-75" value="Выбор периода" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-76" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.427;entryY=1.066;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-54" target="rioncRUnMP78FXTY8pyi-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-77" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.604;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-54" target="rioncRUnMP78FXTY8pyi-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-78" value="Ввести логин" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-17.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-79" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.691;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-26" target="rioncRUnMP78FXTY8pyi-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-109.5" y="-21.5" as="sourcePoint" />
+            <mxPoint x="-60.5" y="127.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-80" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.972;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-26" target="rioncRUnMP78FXTY8pyi-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="7.5" as="sourcePoint" />
+            <mxPoint x="-130" y="-42.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-81" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.097;exitY=0.17;exitDx=0;exitDy=0;entryX=0.73;entryY=0.941;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-26" target="rioncRUnMP78FXTY8pyi-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="-57.5" as="sourcePoint" />
+            <mxPoint x="-66" y="-77.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-83" value="Ввести пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-107.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-84" value="Изменить имя" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-85" value="" style="endArrow=none;html=1;rounded=0;exitX=0.664;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.339;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-6" target="rioncRUnMP78FXTY8pyi-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="650" as="sourcePoint" />
+            <mxPoint x="460" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-92" value="Выбор образа питания" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="-140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.626;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-2" target="rioncRUnMP78FXTY8pyi-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="-137" as="sourcePoint" />
+            <mxPoint x="297" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-96" value="Принять рацион и добавить в профиль" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-97" value="" style="endArrow=none;html=1;rounded=0;exitX=0.683;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-54" target="rioncRUnMP78FXTY8pyi-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="565" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-98" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.229;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-113" target="rioncRUnMP78FXTY8pyi-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="350" as="sourcePoint" />
+            <mxPoint x="100" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-99" value="Раздвел №4&lt;div&gt;Рацион&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-100" value="Посмотреть нынешний рацион и расписание приема пищи" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="570" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-101" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-99" target="rioncRUnMP78FXTY8pyi-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="942" as="sourcePoint" />
+            <mxPoint x="293" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-102" value="" style="endArrow=none;html=1;rounded=0;exitX=0.798;exitY=0.931;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.391;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-99" target="rioncRUnMP78FXTY8pyi-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="920" as="sourcePoint" />
+            <mxPoint x="310" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-103" value="Удалить рацион" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-104" value="Включить упоминание приема пищи" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-105" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.66;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-21" target="rioncRUnMP78FXTY8pyi-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="940" as="sourcePoint" />
+            <mxPoint x="116" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-106" value="Поддержка веса" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-250" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-107" value="Набор массы" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-108" value="Похудение" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-72.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-109" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.648;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.083;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-92" target="rioncRUnMP78FXTY8pyi-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-110" as="sourcePoint" />
+            <mxPoint x="140" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-110" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.455;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.409;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-92" target="rioncRUnMP78FXTY8pyi-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-110" as="sourcePoint" />
+            <mxPoint x="140" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-111" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-92" target="rioncRUnMP78FXTY8pyi-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-110" as="sourcePoint" />
+            <mxPoint x="140" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-113" value="&lt;div&gt;User Login&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-114" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-115" value="Имя" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="440" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-116" value="Электронная почта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-117" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-116" target="rioncRUnMP78FXTY8pyi-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="550" as="sourcePoint" />
+            <mxPoint x="-310" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-118" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.972;entryY=0.666;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-115" target="rioncRUnMP78FXTY8pyi-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="550" as="sourcePoint" />
+            <mxPoint x="-310" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-119" value="Пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="490" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-120" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.304;entryY=1.031;entryDx=0;entryDy=0;exitX=0.651;exitY=0.082;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-119" target="rioncRUnMP78FXTY8pyi-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-420" y="590" as="sourcePoint" />
+            <mxPoint x="-475" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-1" target="rioncRUnMP78FXTY8pyi-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="61" y="1150" as="sourcePoint" />
+            <mxPoint x="111" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rioncRUnMP78FXTY8pyi-128" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.696;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rioncRUnMP78FXTY8pyi-1" target="rioncRUnMP78FXTY8pyi-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-139" y="1110" as="sourcePoint" />
+            <mxPoint x="241" y="1215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
